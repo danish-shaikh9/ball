@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Kaushan+Script&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./img/backgoundi.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.box1{
+    margin: 30px 40px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid red;
+}
+.box1 i{
+    height: 60px;
+    width: 60px;
+}
+h2{
+    text-align: center;
+    margin: 350px 20px 20px 20px;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box2{
+    border: 2px solid lightcyan;
+    margin: 20px 20px 20px 360px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.9);
+}
+.icon, .icon1{
+    display: inline-block;
+}
+.icon{
+    /* border: 1px solid red; */
+    width: 20px;
+    margin-left: 20px;
+}
+.icon1{
+    margin: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+    /* border: 1px solid red; */
+    width: 250px;
+}
+
+.box3, .box4, .box5{
+    display: inline-block;
+    font-family: "Briem Hand", cursive;
+}
+.box3{
+    width: 30%;
+    margin: 20px;
+    color: aqua;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.box4{
+    width: 30%;
+    margin: 20px;
+    color: aqua;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.box5{
+    width: 30%;
+    margin: 40px 20px 20px 20px;
+    color: aqua;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
